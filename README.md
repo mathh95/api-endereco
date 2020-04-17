@@ -7,9 +7,10 @@
 
 - Setup dependências
 
-1. composer install
+1. cd para a raiz do projeto.
+2. composer install
 
 - Rodar o servidor http via xampp
 
 1. cd para a raiz do projeto.
-2. pode utilizar as requisiçoes.
+2. tudo prontos para as requisições.
