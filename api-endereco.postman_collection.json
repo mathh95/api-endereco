@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "6e086bfd-794f-404a-8332-00b64943f7dc",
+		"name": "api-endereco",
+		"description": "Api de endereços com estados e cidades.\n\n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost/api-endereco/estados",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/api-endereco/estados",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-endereco",
+						"estados"
+					]
+				},
+				"description": "Lista todos os estados cadastrados."
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/api-endereco/estados/6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/api-endereco/estados/6",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-endereco",
+						"estados",
+						"6"
+					]
+				},
+				"description": "Lista o estado com codigo passado por parametro"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/api-endereco/estados/Piaui",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/api-endereco/estados/Piaui",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-endereco",
+						"estados",
+						"Piaui"
+					]
+				},
+				"description": "Lista o estado com nome passado por parametro."
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/api-endereco/cidades",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/api-endereco/cidades",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-endereco",
+						"cidades"
+					]
+				},
+				"description": "Lista todas as cidades cadastradas no banco de dados."
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/api-endereco/cidades/5200",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/api-endereco/cidades/5200",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-endereco",
+						"cidades",
+						"5200"
+					]
+				},
+				"description": "Lista a cidade especifica com o código do parametro da request."
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/api-endereco/cidades/Pinheiros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/api-endereco/cidades/Pinheiros",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-endereco",
+						"cidades",
+						"Pinheiros"
+					]
+				},
+				"description": "Lista a cidade com o nome especificado por parametro."
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
